@@ -11,7 +11,7 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
 # Now get informabion about the hyperboria network
 rm -rf peers
 git clone https://github.com/hyperboria/peers.git
-cd peers
 
-echo "Testing all available CJDNS peers, this will take approximately 3 minutes..."
-python3 testAvailable.py
+echo
+echo "Pinging every CJDNS relay to update the configuration file (takes approximately 4 minutes)..."
+python3 getPeersThatAreUpAndUpdateConfiguration.py

@@ -1,1 +1,1 @@
-sudo cjdroute < cjdroute.conf
+sudo ./cjdroute < cjdroute.conf
