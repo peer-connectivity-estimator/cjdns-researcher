@@ -6,7 +6,7 @@ import re
 import json
 
 
-maxConnectionsToAdd = 10
+maxConnectionsToAdd = 100
 
 # Send a command to the Linux terminal
 def terminal(cmd):
